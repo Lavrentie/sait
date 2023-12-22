@@ -1,0 +1,174 @@
+html{
+    font-family: "Montserrat",'Segoe UI';
+    font-size: 18px;
+    font-weight:500;
+    color: white;
+    background-color: #1C1B21;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    margin: 0;
+}
+body{
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.header{
+    padding-top: 1rem;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    background-color: #333234;
+}
+
+.navigation{
+    display: flex;
+
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+}
+
+.navButton{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding-top: 1rem;
+}
+
+.navButton:hover{
+    background-color: #7A66CC;
+}
+
+.firstBlock{
+
+    background: linear-gradient(rgb(44,43,44),rgb(68,70,73));
+
+ display: flex;
+ flex-direction: column;
+}
+
+.projectWrap{
+    padding: 0 10%;
+    justify-content: space-between;
+    display: flex;
+    gap: 3rem;
+    flex-direction: row-reverse;
+}
+.projectText{
+    width: 690px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.MainSubtitle{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.MainTitle{
+    font-size: 100px;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white ;
+    margin-bottom: 3rem;
+}
+
+.mainImg{
+    margin-bottom: 10rem;
+}
+
+.title{
+    margin: 6rem 0;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.Ideastitle{
+    padding-top: 10rem;
+    margin-bottom: 5rem;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.frame{
+    width: 900px;
+    height: 500px;
+}
+.ideasBlock{
+    min-height: 1000px;
+    background-image: url(img/first-screen-TEST.png);
+}
+
+.ideasWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.ideasCard{
+    width: 255px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-direction: column;
+}
+.ideaHead{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.ideatext{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerText{
+
+    padding: 0 1rem;
+    display: flex;
+
+}
+.footerTitle{
+    padding-right: 1rem;
+    width: 200px;
+    text-align: end;
+}
+.footerSubtitle{
+
+    text-align: end;
+}
+
+.MediaLinks{
+    margin: 4rem;
+}
+.MediaLink{
+    margin: 1rem;
+}
+.linkWrap{
+    display: flex;
+}
+.createdBy{
+    font-size: 13px;
+    color: RGBA(255,255,255,0.7);
+}
+
+.createdBy span{
+    font-weight: 700;
+
+}
